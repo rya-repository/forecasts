@@ -19,6 +19,10 @@
     {
       "name": "LA",
       "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
+    },
+    {
+      "name": "Aukland",
+      "url": "https://www.windy.com/-36.852/174.763?-37.358,174.763,8"
     }
   ]
 }
