@@ -1,4 +1,5 @@
 const CONFIG_PATH = "./venues.json";
+const PAGE_REFRESH_MS = 60 * 60 * 1000;
 
 const DEFAULT_LAYOUT = {
   calibratedForVenues: 3,
@@ -258,6 +259,12 @@ function renderError(message) {
   mapPanel.replaceChildren();
 }
 
+function startAutoRefresh() {
+  window.setInterval(() => {
+    window.location.reload();
+  }, PAGE_REFRESH_MS);
+}
+
 async function init() {
   const list = document.querySelector("#forecast-list");
   const template = document.querySelector("#venue-template");
@@ -301,3 +308,4 @@ async function init() {
 }
 
 init();
+startAutoRefresh();
