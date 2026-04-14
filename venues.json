@@ -1,0 +1,24 @@
+{
+  "map": {
+    "title": "General Windy Map",
+    "url": "https://www.windy.com/?46.602,2.562,4"
+  },
+  "venues": [
+    {
+      "name": "Weymouth",
+      "url": "https://www.windy.com/50.610/-2.454?50.205,-2.454,8"
+    },
+    {
+      "name": "Hyeres",
+      "url": "https://www.windy.com/43.120/6.130?42.655,6.130,8"
+    },
+    {
+      "name": "Mallorca",
+      "url": "https://www.windy.com/39.552/2.736?39.061,2.736,8"
+    },
+    {
+      "name": "LA",
+      "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
+    }
+  ]
+}
