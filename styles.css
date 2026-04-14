@@ -1,6 +1,7 @@
 :root {
   --venue-count: 3;
   --venue-gap: 10px;
+  --safe-inline: clamp(24px, 3vw, 64px);
   --bg-deep: #07111f;
   --bg-mid: #122945;
   --bg-soft: #1c3d62;
@@ -33,7 +34,7 @@ body {
   grid-template-columns: 1.7fr 1fr;
   gap: 1rem;
   height: 100vh;
-  padding: 1rem;
+  padding: 1rem var(--safe-inline);
 }
 
 .forecast-column,
@@ -159,6 +160,7 @@ body {
     height: auto;
     min-height: 100vh;
     overflow: auto;
+    padding: 1rem;
   }
 
   .map-panel iframe {
