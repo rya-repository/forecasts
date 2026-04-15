@@ -1,5 +1,6 @@
 const CONFIG_PATH = "./venues.json";
 const PAGE_REFRESH_MS = 5 * 60 * 1000;
+const MAP_REBIND_DELAY_MS = 12 * 1000;
 
 const DEFAULT_LAYOUT = {
   calibratedForVenues: 3,
@@ -99,6 +100,17 @@ function toWindyEmbedUrl(rawUrl, mode = "forecast") {
   }
 
   return `https://embed.windy.com/embed2.html?${params.toString()}`;
+}
+
+function withCacheBust(url, key) {
+  try {
+    const parsed = new URL(url, window.location.href);
+    parsed.searchParams.set("_cb", key);
+    return parsed.toString();
+  } catch {
+    const separator = url.includes("?") ? "&" : "?";
+    return `${url}${separator}_cb=${key}`;
+  }
 }
 
 async function loadConfig() {
@@ -242,11 +254,20 @@ function updateTimestamp() {
 function renderMap(map) {
   const mapPanel = document.querySelector("#map-panel");
   const frame = document.createElement("iframe");
-  frame.loading = "lazy";
-  frame.src = toWindyEmbedUrl(map.url, "map");
+  const baseMapUrl = toWindyEmbedUrl(map.url, "map");
+  const getFreshMapUrl = () => withCacheBust(baseMapUrl, String(Date.now()));
+
+  frame.loading = "eager";
+  frame.src = getFreshMapUrl();
   frame.title = map.title || "Windy map";
   frame.referrerPolicy = "no-referrer-when-downgrade";
   mapPanel.replaceChildren(frame);
+
+  // Some signage webviews occasionally render Windy tiles incorrectly on first paint.
+  // Rebinding once after startup prompts a clean redraw without full page reload.
+  window.setTimeout(() => {
+    frame.src = getFreshMapUrl();
+  }, MAP_REBIND_DELAY_MS);
 }
 
 function renderError(message) {
