@@ -19,6 +19,10 @@
     {
       "name": "LA",
       "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
+    },
+    {
+      "name": "Cagliari",
+      "url": "https://www.windy.com/39.225/9.088?38.732,9.088,8"
     }
   ]
 }
