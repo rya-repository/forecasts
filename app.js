@@ -1,5 +1,5 @@
 const CONFIG_PATH = "./venues.json";
-const PAGE_REFRESH_MS = 60 * 60 * 1000;
+const PAGE_REFRESH_MS = 5 * 60 * 1000;
 
 const DEFAULT_LAYOUT = {
   calibratedForVenues: 3,
@@ -260,9 +260,13 @@ function renderError(message) {
 }
 
 function startAutoRefresh() {
-  window.setInterval(() => {
-    window.location.reload();
-  }, PAGE_REFRESH_MS);
+  const refreshNow = () => {
+    const nextUrl = new URL(window.location.href);
+    nextUrl.searchParams.set("_refresh", String(Date.now()));
+    window.location.replace(nextUrl.toString());
+  };
+
+  window.setTimeout(refreshNow, PAGE_REFRESH_MS);
 }
 
 async function init() {
