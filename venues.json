@@ -1,7 +1,7 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?42.401,7.020,7"
+    "url": "https://www.windy.com/?2026-04-27-03,37.119,-8.537,8"
   },
   "venues": [
     {
@@ -9,8 +9,8 @@
       "url": "https://www.windy.com/50.610/-2.454?50.205,-2.454,8"
     },
     {
-      "name": "Hyeres",
-      "url": "https://www.windy.com/43.120/6.130?42.655,6.130,8"
+      "name": "Portimao",
+      "url": "https://www.windy.com/37.138/-8.537?2026-04-27-03,37.119,-8.537,8"
     },
     {
       "name": "Palma",
