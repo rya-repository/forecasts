@@ -1,7 +1,7 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?2026-04-27-03,37.119,-8.537,8"
+    "url": "https://www.windy.com/?36.632,-8.537,8"
   },
   "venues": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "Portimao",
-      "url": "https://www.windy.com/37.138/-8.537?,37.119,-8.537,8"
+      "url": "https://www.windy.com/37.138/-8.537?37.119,-8.537,8"
     },
     {
       "name": "Palma",
