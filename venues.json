@@ -1,27 +1,19 @@
 {
   "map": {
-    "title": "General Windy Map",
-    "url": "https://www.windy.com/?47.439,-3.126,8"
+    "title": "General Windy Map - Portimao",
+    "url": "https://www.windy.com/?36.627,-8.551,8"
   },
   "venues": [
     {
-      "name": "Weymouth",
+      "name": "Weymouth - 470 Mixed, 49er's, 49erFx",
       "url": "https://www.windy.com/50.610/-2.454?50.205,-2.454,8"
     },
     {
-      "name": "Portimao",
+      "name": "Portimao - IQ's Euros",
       "url": "https://www.windy.com/37.138/-8.537?37.119,-8.537,8"
     },
     {
-      "name": "Quiberon",
-      "url": "https://www.windy.com/47.487/-3.122?47.439,-3.126,8"
-    },
-    {
-      "name": "Viana do Castelo",
-      "url": "https://www.windy.com/41.678/-8.836?41.204,-8.836,8"
-    },
-    {
-      "name": "kaštela",
+      "name": "kaštela - ILCA's Euros",
       "url": "https://www.windy.com/43.551/16.368?43.091,16.368,8"
     },
     {
