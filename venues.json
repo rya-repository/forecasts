@@ -1,12 +1,12 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?50.326,-2.388,9"
+    "url": "https://www.windy.com/?50.499,-2.311,10"
   },
   "venues": [
     {
       "name": "Weymouth - All Sailors",
-      "url": "https://www.windy.com/50.610/-2.454?50.205,-2.454,8"
+      "url": "https://www.windy.com/50.547/-2.441?50.526,-2.441,12"
     },
     {
       "name": "LA",
