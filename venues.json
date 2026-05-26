@@ -11,6 +11,14 @@
     {
       "name": "LA",
       "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
+    },
+    {
+      "name": "Dublin, Ireland - Upcoming ILCA Worlds",
+      "url": "https://www.windy.com/53.349/-6.261?52.968,-6.261,8"
+    },
+    {
+      "name": "Enoshima, Japan - Upcoming 470 Worlds",
+      "url": "https://www.windy.com/35.307/139.487?34.787,139.487,8"
     }
   ]
 }
