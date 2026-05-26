@@ -1,20 +1,12 @@
 {
   "map": {
-    "title": "General Windy Map - Portimao",
-    "url": "https://www.windy.com/?36.627,-8.551,8"
+    "title": "General Windy Map",
+    "url": "https://www.windy.com/?2026-05-26-03,50.332,-2.441,9"
   },
   "venues": [
     {
-      "name": "Weymouth - 470 Mixed, 49er's, 49erFx",
+      "name": "Weymouth - All Sailors",
       "url": "https://www.windy.com/50.610/-2.454?50.205,-2.454,8"
-    },
-    {
-      "name": "Portimao - IQ's Euros",
-      "url": "https://www.windy.com/37.138/-8.537?37.119,-8.537,8"
-    },
-    {
-      "name": "kaštela - ILCA's Euros",
-      "url": "https://www.windy.com/43.551/16.368?43.091,16.368,8"
     },
     {
       "name": "LA",
