@@ -1,19 +1,15 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?50.499,-2.311,10"
+    "url": "https://www.windy.com/?33.240,-118.192,8"
   },
   "venues": [
     {
-      "name": "Weymouth - All Sailors",
+      "name": "Weymouth - BSS Sailors",
       "url": "https://www.windy.com/50.547/-2.441?50.526,-2.441,12"
     },
     {
-      "name": "Italy, Talamone - Kite M",
-      "url": "https://www.windy.com/42.562/11.152?42.094,11.152,8"
-    },
-    {
-      "name": "LA",
+      "name": "LA - BST Sailors",
       "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
     },
     {
@@ -23,6 +19,10 @@
     {
       "name": "Enoshima, Japan - Upcoming 470 Worlds",
       "url": "https://www.windy.com/35.307/139.487?34.787,139.487,8"
+    },
+    {
+      "name": "Gokova, Turkey - Upcoming Kite Europeans",
+      "url": "https://www.windy.com/37.038/28.327?36.602,27.823,9"      
     }
   ]
 }
