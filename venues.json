@@ -1,7 +1,7 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?35.018,139.702,8"
+    "url": "https://www.windy.com/?53.250,-5.869,10"
   },
   "venues": [
     {
@@ -9,16 +9,12 @@
       "url": "https://www.windy.com/50.547/-2.441?50.526,-2.441,12"
     },
     {
-      "name": "LA - BST Skiff & Nacra",
+      "name": "LA - 2 Years to go",
       "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
     },
     {
       "name": "Dublin, Ireland - ILCA Worlds",
       "url": "https://www.windy.com/53.349/-6.261?52.968,-6.261,8"
-    },
-    {
-      "name": "Enoshima, Japan - 470 Worlds",
-      "url": "https://www.windy.com/35.307/139.487?34.787,139.487,8"
     },
     {
       "name": "Gokova, Turkey - Kite Europeans",
