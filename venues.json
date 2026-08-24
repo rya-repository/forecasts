@@ -1,11 +1,11 @@
 {
   "map": {
     "title": "General Windy Map",
-    "url": "https://www.windy.com/?53.250,-5.869,10"
+    "url": "https://www.windy.com/?50.566,-2.379,11"
   },
   "venues": [
     {
-      "name": "Weymouth - IQ's, Kite's, BSS Skiff",
+      "name": "Weymouth - IQ's, Kite's, Skiff's",
       "url": "https://www.windy.com/50.547/-2.441?50.526,-2.441,12"
     },
     {
