@@ -5,20 +5,28 @@
   },
   "venues": [
     {
-      "name": "Weymouth - IQ's, Kite's, Skiff's",
+      "name": "Weymouth - 49ers",
       "url": "https://www.windy.com/50.547/-2.441?50.526,-2.441,12"
     },
     {
-      "name": "LA - 2 Years to go",
-      "url": "https://www.windy.com/34.054/-118.243?33.527,-118.243,8"
+      "name": "Vilamoura, Portugal (FX & 470, ILCA 7 BSS&TX)",
+      "url": "https://www.windy.com/37.071/-8.128?37.049,-8.117,13"
     },
     {
-      "name": "Dublin, Ireland - ILCA Worlds",
-      "url": "https://www.windy.com/53.349/-6.261?52.968,-6.261,8"
+      "name": "Fuerte (Kite M & W) & Lanza (IQ W)",
+      "url": "https://www.windy.com/28.757/-13.858?28.725,-13.845,13"
     },
     {
-      "name": "Gokova, Turkey - Kite Europeans",
-      "url": "https://www.windy.com/37.038/28.327?36.602,27.823,9"      
+      "name": "Melbourne, Aus - ILCA 7",
+      "url": "https://www.windy.com/-37.923/144.883?-37.971,144.929,11"      
+    },
+    {
+      "name": "Cascais, Portugal - ILCA 6",
+      "url": "https://www.windy.com/38.682/-9.412?38.630,-9.413,11"      
+    },
+    {
+      "name": "Cagliari, Italy - Nacra",
+      "url": "https://www.windy.com/39.141/9.159?39.127,9.386,10"      
     }
   ]
 }
